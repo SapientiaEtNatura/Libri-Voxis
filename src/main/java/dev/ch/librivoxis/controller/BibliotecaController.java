@@ -1,5 +1,6 @@
 package dev.ch.librivoxis.controller;
 
+import dev.ch.librivoxis.model.Livro;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

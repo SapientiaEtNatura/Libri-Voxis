@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BibliotecaController {
 
     @GetMapping("/home")
-    public String boasVindas(){
+    public String boasVindas() {
         return "Bem-Vindo a primeira Rota da Biblioteca";
     }
 

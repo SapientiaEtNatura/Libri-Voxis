@@ -26,6 +26,11 @@ public class LivroService {
         return livroRepository.save(livro);
     }
 
+    public Livro buscarPorId(Long id) {
+        return livroRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Livro não encontrado"));
+    }
+
     public List<Livro> listarLivros(){
         return livroRepository.findAll();
     }
